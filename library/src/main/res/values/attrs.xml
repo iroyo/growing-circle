@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GrowingSlider">
+        <attr name="circle_colorBackground" format="color"/>
+        <attr name="circle_colorBase" format="color"/>
+        <attr name="circle_colorMain" format="color"/>
+        <attr name="circle_minValue" format="float"/>
+        <attr name="circle_maxValue" format="float"/>
+        <attr name="circle_initialValue" format="float"/>
+        <attr name="circle_resultUnit" format="string"/>
+        <attr name="circle_resultDecimals" format="integer"/>
+        <attr name="circle_resultSize" format="dimension"/>
+        <attr name="circle_resultColor" format="color"/>
+        <attr name="circle_titleSize" format="dimension"/>
+        <attr name="circle_titleColor" format="dimension"/>
+        <attr name="circle_titleText" format="string"/>
+        <attr name="circle_thickness" format="float"/>
+        <attr name="circle_animate" format="boolean"/>
+    </declare-styleable>
+</resources>
