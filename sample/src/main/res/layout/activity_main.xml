@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -17,7 +18,17 @@
 
     <com.iroyoraso.growingcircle.GrowingCircle
         android:layout_margin="16dp"
-        android:layout_width="100dp"
-        android:layout_height="100dp" />
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:circle_thickness="18"
+        app:circle_colorMain="#7cffbc"
+        app:circle_colorBase="#bababa"
+        app:circle_titleSize="16sp"
+        app:circle_titleText="EXAMPLE"
+        app:circle_resultUnit="€"
+        app:circle_resultSize="16sp"
+        app:circle_initialValue="50"
+        app:circle_maxValue="100"
+        app:circle_minValue="0" />
 
 </LinearLayout>
