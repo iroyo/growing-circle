@@ -14,21 +14,58 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="DEMO"
+        android:textStyle="bold"/>
 
-    <com.iroyoraso.growingcircle.GrowingCircle
+    <com.iroyoraso.growingcircle.InnerTextGrowingCircle
         android:layout_margin="16dp"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        app:circle_thickness="18"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        app:circle_thickness="14sp"
         app:circle_colorMain="#7cffbc"
-        app:circle_colorBase="#bababa"
-        app:circle_titleSize="16sp"
-        app:circle_titleText="EXAMPLE"
+        app:circle_colorBase="#d7d7d7"
+        app:circle_titleStyle="italic"
+        app:circle_titleSize="14sp"
+        app:circle_titleText="Example 1"
         app:circle_resultUnit="€"
-        app:circle_resultSize="16sp"
-        app:circle_initialValue="50"
+        app:circle_resultSize="14sp"
+        app:circle_resultDecimals="3"
+        app:circle_initialValue="1.357"
+        app:circle_maxValue="2"
+        app:circle_minValue="1" />
+
+    <com.iroyoraso.growingcircle.InnerTextGrowingCircle
+        android:layout_margin="16dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        app:circle_thickness="14sp"
+        app:circle_colorMain="#ffde6d"
+        app:circle_colorBase="#b2b2b2"
+        app:circle_titleStyle="bold"
+        app:circle_titleSize="14sp"
+        app:circle_titleText="Example 1"
+        app:circle_resultUnit="%"
+        app:circle_resultSize="14sp"
+        app:circle_resultDecimals="0"
+        app:circle_initialValue="75"
         app:circle_maxValue="100"
+        app:circle_minValue="0" />
+
+    <com.iroyoraso.growingcircle.OuterTextGrowingCircle
+        android:layout_margin="16dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        app:circle_thickness="10sp"
+        app:circle_colorMain="#b47cff"
+        app:circle_colorBase="#d7d7d7"
+        app:circle_titleSize="14sp"
+        app:circle_titleStyle="bold"
+        app:circle_titleText="Example 2"
+        app:circle_resultUnit="$"
+        app:circle_resultSize="16sp"
+        app:circle_resultDecimals="2"
+        app:circle_initialValue="357"
+        app:circle_maxValue="1000"
         app:circle_minValue="0" />
 
 </LinearLayout>
